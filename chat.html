@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chat</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body class="body-chat">
+    <header class="top-header chat-header">
         <div class="header__top">
             <div class="header__column">
                 <i class="fas fa-plane"></i>
@@ -34,44 +38,46 @@
                 <i class="fa fa-bars"></i>
             </div>
         </div>
-</head>
-<body>
-<main class="chat">
-    <div class="date-divider">
-        <span class="date-divider__text">
-            2018년 9월 25일
-        </span>
-    </div>
-    <div class="chat__message chat__message-from-me">
-        <span class="chat__message-date">
-            15:35
-        </span>
-        <div class="chat__message-body">
-            이건 모얌??
+    </header>
+    <main class="chat">
+        <div class="date-divider">
+            <span class="date-divider__text">
+                2018년 9월 25일
+            </span>
         </div>
-    </div>
+        <div class="chat__message chat__message-from-me">
+            <span class="chat__message-date">
+                15:35
+            </span>
+            <div class="chat__message-body">
+                이건 모얌??
+            </div>
+        </div>
 
-    <div class="chat__message chat__message-to-me">
-        <img src="images/kakaoProfile.jpeg" class="chat__message-user">
-        <div class="chat__message-center">
-            <h3 class="chat__message-username">
-                촐랑이
-            </h3>
-            <span class="chat__message-body">
-                맑나야. 이건 테스트얌 ㅋㅋ 
+        <div class="chat__message chat__message-to-me">
+            <img src="images/kakaoProfile.jpeg" class="chat__message-user">
+            <div class="chat__message-center">
+                <h3 class="chat__message-username">
+                    촐랑이
+                </h3>
+                <span class="chat__message-body">
+                    맑나야. 이건 테스트얌 ㅋㅋ 
+                </span>
+            </div>
+            <span class="chat__message-date">
+                    15:36
+            </span>
+        </div>
+    </main>
+    <div class="type-message">
+        <i class="fas fa-plus fa-lg"></i>
+        <div class="type-message__input">
+            <input type="text">
+            <i class="far fa-smile fa-lg"></i>
+            <span class="record-message">
+                <i class="fa fa-microphone fa-lg"></i>
             </span>
         </div>
     </div>
-</main>
-<div class="type-message">
-    <i class="fas fa-plus fa-2x"></i>
-    <div class="type-message__input">
-        <input type="text">
-        <i class="far fa-smile"></i>
-        <span class="record-message">
-            <i class="fa fa-microphone"></i>
-        </span>
-    </div>
-</div>
 </body>
 </html>
